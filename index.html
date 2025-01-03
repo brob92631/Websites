@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stats</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Brawl Stats</h1>
+        <p>Enter your Brawl Stars Tag to view your stats!</p>
+    </header>
+    <main>
+        <div class="input-container">
+            <input id="playerTag" type="text" placeholder="Enter Player Tag (e.g., #LYG2QGQ8R)">
+            <button id="fetchStats">Fetch Stats</button>
+        </div>
+        <div id="errorMessage"></div>
+        <div id="statsContainer"></div>
+    </main>
+    <footer>
+        <p>Powered by Brawl Stars API</p>
+    </footer>
+</body>
+</html>
