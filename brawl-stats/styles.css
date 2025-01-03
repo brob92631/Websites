@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.input-container {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #555;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #1d1d1d;
+}
+
+.input-container button:hover {
+    background-color: #e6b800;
+}
+
+#errorMessage {
+    color: #ff4444;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#statsContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    display: none;
+}
+
+#statsContainer h2 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.stat-item {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
